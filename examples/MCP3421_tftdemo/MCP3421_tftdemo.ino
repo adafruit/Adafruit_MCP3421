@@ -42,7 +42,6 @@ void setup() {
 }
 
 void loop() {
-  static uint32_t lastSecond = millis();
   static uint32_t sampleCount = 0;
   static int32_t adcValue = 0;
 
